@@ -13,9 +13,4 @@ Please open the "index.html" file with Live Server
 *If the date entered cannot be located in the data set, an empty table will display.
 *Please manually refresh the page if you wish to reset the data.
 
-<<<<<<< HEAD
 ## Enjoy looking into the sightings that have been recorded and the thought of what could possibly be out there!
-=======
-## Enjoy looking into the sightings that have been recorded and the thought of what could possibly be out there!
-
->>>>>>> cbaed98d6549bd3e30098b5daa9b635f66e56d4d
