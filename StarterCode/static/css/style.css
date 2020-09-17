@@ -65,6 +65,18 @@ body {
   margin-top: 10px;
 }
 
+/* outline the filter button to stand out */
+.button {
+  border: 2px solid #4CAF50;
+  transition-duration: 0.4s;
+}
+
+/* create a hover color over the filter button */
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
 select {
   display: block;
   width: 100%;

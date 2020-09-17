@@ -1,7 +1,7 @@
 // from data.js
 var tableData = data;
 
-// select the table & body from indexed.html
+// select the table & tbody from indexed.html
 var ufoTable = d3.select('table');
 
 var tbody = d3.select('tbody');
@@ -22,6 +22,4 @@ tableData.forEach((ufo) => {
         var cell = row.append('td').text(value);
     })
 })
-
-
 
