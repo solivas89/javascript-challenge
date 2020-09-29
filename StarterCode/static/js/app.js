@@ -18,7 +18,7 @@ tableData.forEach((ufo) => {
     Object.entries(ufo).forEach(([key,value]) =>{
         // console.log(key,value);
 
-        // append a cell to the row for each value 
+        // append a cell to the row for each value in the json objects
         var cell = row.append('td').text(value);
     })
 })
@@ -26,9 +26,9 @@ tableData.forEach((ufo) => {
 // select the filter button
 var ufoButton = d3.select('button');
 ufoButton.text('Sightings Filter')
-// console.log(ufoButton)
+console.log(ufoButton)
 
-// Day 9 - Act. #9
+// Day 3 - Act. #3, #5 & #9
 // function w/ the event handler 
 function runEnter() {
     
@@ -61,5 +61,5 @@ function runEnter() {
     });
 }
 
-// event handlerw/ function
+// event handler/ function
 ufoButton.on('click', runEnter);
